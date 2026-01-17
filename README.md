@@ -28,5 +28,11 @@ The installed os will not have a GUI and using the console provided by HETZNER i
 ```bash
 $ ssh-keygen -t ed25519 -C "home@less.com"
 ```
+Then we can use the ssh-copy-id command to enroll the keys directly into each server using the public ip:
+
+```bash
+$ ssh-copy-id -i ~/.ssh/id_ed25519.pub user@server_ip
+```
+
 
 # Work in progress...
