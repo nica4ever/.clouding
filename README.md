@@ -1,7 +1,7 @@
 # .clouding
 Personal cloud engineering project
 
-# Context 
+# Context
 This is a personal cloud project in which I aim to create a full production setup
 
 ## Prerequisites
@@ -22,5 +22,10 @@ I always asked myslef how can one homelab without a homelab or even without a ho
 | VirtualCPU  |  4  |
 | RAM         |  8  |
 | Disk Local  |80GiB|
+
+The installed os will not have a GUI and using the console provided by HETZNER is not porfi at all not even for a homeless person. I might not have a home but I do have dignity. Therefore we can take advantage of the following, the servers that were created have a public ip by default so all that I had to do was to generate a ssh key :
+
+console
+homeless@fedora: $ ssh-keygen -t rsa -b 2048 -C "home@less.com"
 
 # Work in progress...
