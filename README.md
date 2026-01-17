@@ -26,6 +26,6 @@ I always asked myslef how can one homelab without a homelab or even without a ho
 The installed os will not have a GUI and using the console provided by HETZNER is not porfi at all not even for a homeless person. I might not have a home but I do have dignity. Therefore we can take advantage of the following, the servers that were created have a public ip by default so all that I had to do was to generate a ssh key :
 
 
-
+$ ssh-keygen -t ed25519 -C "home@less.com"
 
 # Work in progress...
