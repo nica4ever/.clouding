@@ -15,4 +15,14 @@ The OS of choice will be Red Hat Enterprise Linux:
 |              | Security            |
 |              | Container Management|
 
+I always asked myslef how can one homelab without a homelab or even without a home. For context I find myself in this position so while the dumpster next to me keeps me warm and I managed to steal the wifi password of a venue close by I realized that it is possible to build a cloud within a cloud. Therefore RHEL 10 will be installed on virtual private servers(vps), the platform of choice is HETZNER(https://www.hetzner.com/), where renting four vpss cost around 24-30 EUR per month.
+
+In order to get RHEL for cheap I accessed the Red Hat Developer(https://tinyurl.com/3u4p26zb) subscription which allows me to install RHEL 10 on this four servers. 
+
+| Description | Size|
+|-------------|-----|
+| VirtualCPU  |  4  |
+| RAM         |  8  |
+| Disk Local  |80GiB|
+
 # Work in progress...
