@@ -15,7 +15,7 @@ The OS of choice will be Red Hat Enterprise Linux in order to get RHEL for cheap
 |              | Security            |
 |              | Container Management|
 
-I always asked myslef how can one homelab without a homelab or even without a home. For context I find myself in this position so while the dumpster next to me keeps me warm and I managed to steal the wifi password of a venue close by I realized that it is possible to build a cloud within a cloud. Therefore RHEL 10 will be installed on virtual private servers(vps), the platform of choice is HETZNER(https://www.hetzner.com/), where renting four vpss cost around 24-30 EUR per month. In the following table you can see the specs of each server(they also have more porefull options but for this project this is enough):
+I always asked myslef how can one homelab without a homelab or even without a home. For context I find myself in this position so while the dumpster next to me keeps me warm and I managed to steal the wifi password of a venue close by I realized that it is possible to build a cloud within a cloud. Therefore RHEL 10 will be installed on virtual private servers(vps), the platform of choice is HETZNER(https://www.hetzner.com/), where renting four vpss cost around 24-30 EUR per month. In the following table you can see the specs of each server(they also have more powerfull options but for this project this is enough):
 
 | Description | Size|
 |-------------|-----|
@@ -33,6 +33,6 @@ Then we can use the ssh-copy-id command to enroll the keys directly into each se
 ```bash
 $ ssh-copy-id -i ~/.ssh/id_ed25519.pub homeless@server_ip
 ```
-So at this point I basically I have a homelabe setup that does not require a home and not even a lab.
+So at this point I basically I have a homelab setup that does not require a home and not even a lab.
 
 # Work in progress...
