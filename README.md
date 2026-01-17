@@ -31,8 +31,8 @@ $ ssh-keygen -t ed25519 -C "home@less.com"
 Then we can use the ssh-copy-id command to enroll the keys directly into each server using the public ip:
 
 ```bash
-$ ssh-copy-id -i ~/.ssh/id_ed25519.pub user@server_ip
+$ ssh-copy-id -i ~/.ssh/id_ed25519.pub homeless@server_ip
 ```
-
+So at this point I basically I have a homelabe setup that does not require a home and not even a lab.
 
 # Work in progress...
