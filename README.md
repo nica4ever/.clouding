@@ -6,12 +6,13 @@ This is a personal cloud project in which I aim to create a full production setu
 
 ## Prerequisites
 
-The os of choice will be Red Hat Enterprise Linux:
+The OS of choice will be Red Hat Enterprise Linux:
 
-| Minimal base | standard            |
+|   Base Env   |       Addons        |
 |--------------|---------------------|
-|              | Container Management|
+| Minimal base | Standard            |
 |              | Network Services    |
 |              | Security            |
+|              | Container Management|
 
 # Work in progress...
